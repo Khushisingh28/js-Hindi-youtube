@@ -33,3 +33,31 @@ const myFunction = function(){
 }
 
 console.log(typeof(myFunction));
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++
+
+
+// stack(primitive) , heap(non primitive)
+
+let khushi = "hello";
+let anothername = khushi;
+
+anothername = "chaiaurcode";
+
+console.log(khushi);
+console.log(anothername);
+
+let userone = {
+    email : "khushi@google.com",
+    upi : "user@byl"
+}
+
+let usertwo = userone;
+
+usertwo.email = "yes@google.com";
+
+console.log(userone.email);
+console.log(usertwo.email);
